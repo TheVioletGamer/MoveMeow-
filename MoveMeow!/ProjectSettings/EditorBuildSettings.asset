@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Food Question.unity
     guid: 68d19b8c7139c704fa33957446199966
   - enabled: 1
+    path: Assets/Scenes/Exercise Screen.unity
+    guid: e210f7f94a965fc479709838a0582654
+  - enabled: 1
+    path: Assets/Scenes/Water Question.unity
+    guid: 194c399bd2f87d04ba1b586aa1a0173c
+  - enabled: 1
     path: Assets/Scenes/Game Screen.unity
     guid: af7a495c97926524db6c26dde2c19db8
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: a88d959ff2dd2004586ec071cf95ed1d
   m_configObjects: {}

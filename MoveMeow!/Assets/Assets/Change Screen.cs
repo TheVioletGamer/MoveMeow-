@@ -8,6 +8,7 @@ public class SceneLoader: MonoBehaviour
     //changes the screen
     public void LoadScene(int screenIndex)
     {
+        Debug.Log("click");
         SceneManager.LoadScene(screenIndex);
     }
 }
