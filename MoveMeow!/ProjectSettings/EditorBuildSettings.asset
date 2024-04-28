@@ -32,4 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Log Water.unity
     guid: 46b52bb9fd7274346abe0f7a3fc517e5
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/Failure.unity
+    guid: e43224bcf596cb54dafa02f68d90e6e0
+  - enabled: 1
+    path: Assets/Scenes/Winning.unity
+    guid: ca9193497bf198d4585885430148b065
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4010b7d7725c82d449b7632c507a1f15, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 39e827b44b92ad24c87cc3370aa06585, type: 2}

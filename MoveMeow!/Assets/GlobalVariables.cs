@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class GlobalVariables : MonoBehaviour
 {
     //users goals
-    public static int userCalories = 0;
-    public static int userWater = 0;
-    public static int userExcersise = 0;
+    public static double userCalories = 1;
+    public static double userWater = 1;
+    public static double userExcersise = 1;
 
     //logged daily updates by the user
     public static int loggedCalories = 0;

@@ -327,12 +327,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentImage: {fileID: 168757538}
-  idleCat: {fileID: 0}
-  buffCat: {fileID: 0}
-  fatCat: {fileID: 0}
-  hungryCat: {fileID: 0}
-  thirstyCat: {fileID: 0}
-  excerciseNeededCat: {fileID: 0}
+  idleCat: {fileID: 21300000, guid: 9b31f8609273d5249be9b816cb8cfd7b, type: 3}
+  buffCat: {fileID: 21300000, guid: 6149801088256e3408bbc9a2ebad4b43, type: 3}
+  fatCat: {fileID: 21300000, guid: aa06f3fb4ff0bb04fa7d27fb1bc5ae6c, type: 3}
+  hungryCat: {fileID: 21300000, guid: 509e456a934935840857ab76347ba4da, type: 3}
+  thirstyCat: {fileID: 21300000, guid: 5b7043a2dcf2a0d4ba35d3a1033d11b1, type: 3}
+  excerciseNeededCat: {fileID: 21300000, guid: f77b1b179bc99c042815c13c8271bb33, type: 3}
 --- !u!1 &188585251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,8 +1050,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.3375, y: -8.4063}
-  m_SizeDelta: {x: 319.68, y: 531.31}
+  m_AnchoredPosition: {x: 0.00032997, y: -7.8681}
+  m_SizeDelta: {x: 309, y: 531.2356}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909690643
 MonoBehaviour:

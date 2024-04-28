@@ -10,6 +10,10 @@ public class UpdateCalBar : MonoBehaviour
 
     private void UpdateBar()
     {
+        Debug.Log(GlobalVariables.loggedCalories);
+        Debug.Log(GlobalVariables.userCalories);
+        Debug.Log(GlobalVariables.loggedCalories / GlobalVariables.userCalories);
+
         if (GlobalVariables.loggedCalories / GlobalVariables.userCalories == 0)
         {
             currentImage.sprite = zeroPerc;

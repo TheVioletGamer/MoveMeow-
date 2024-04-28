@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class ChangeCatSprite : MonoBehaviour
 {
     public Image currentImage;
     public Sprite idleCat, buffCat, fatCat, hungryCat, thirstyCat, excerciseNeededCat;
-    public static int timer = 90;
+    private  uint timer = 9000;
     private void Update()
     {
+        Debug.Log(timer);
         timer--;
         if (GlobalVariables.loggedWater / GlobalVariables.userWater <= 0.50 && GlobalVariables.timer <= 90 * 3/4)
         {
@@ -38,15 +40,15 @@ public class ChangeCatSprite : MonoBehaviour
 
                 if (GlobalVariables.userCalories == GlobalVariables.loggedCalories && GlobalVariables.userWater >= GlobalVariables.loggedWater && GlobalVariables.userExcersise >= GlobalVariables.loggedExercise)
                 {
-                    //Change scene SceneManager.LoadScene(sceneBuilderIndex: <Index here>);
-                     timer = 90;
+                    SceneManager.LoadScene(9);
+                    timer = 90;
                     GlobalVariables.userCalories = 0;
                     GlobalVariables.userWater = 0;
                     GlobalVariables.userExcersise = 0;
                 }
                 else
                 {
-                    //Change scene SceneManager.LoadScene(sceneBuilderIndex: <Index here>);
+                    SceneManager.LoadScene(8);
                     timer = 90;
                     GlobalVariables.userCalories = 0;
                     GlobalVariables.userWater = 0;

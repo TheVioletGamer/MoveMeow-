@@ -11,6 +11,7 @@ public class calorieLogInput : MonoBehaviour
         input = s;
         int.TryParse(input, out cal);
         GlobalVariables.loggedCalories += cal;
+        Debug.Log(cal);
     }
 
 }
