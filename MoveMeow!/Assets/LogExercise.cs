@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EatCaloriesInput : MonoBehaviour
+public class exerciseLogInput : MonoBehaviour
 {
     private string input;
-    private int calories;
+    private int mins;
     public void ReadStringInput(string s)
     {
         input = s;
-        int.TryParse(input, out calories);
-        GlobalVariables.userCalories += calories;
+        int.TryParse(input, out mins);
+        GlobalVariables.loggedExercise += mins;
     }
+
 }

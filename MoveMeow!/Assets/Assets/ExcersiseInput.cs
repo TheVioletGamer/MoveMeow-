@@ -7,6 +7,8 @@ using UnityEngine.Windows;
 
 public class ExcersiseInput : MonoBehaviour
 {
+
+
     private string input;
     private int minutes;
     public void ReadStringInput(string s)
